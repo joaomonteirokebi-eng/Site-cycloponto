@@ -1,15 +1,9 @@
-// Número do WhatsApp da Cycloponto: só dígitos, com DDI 55 + DDD 21.
-// TODO: substituir pelo número oficial.
-const WHATSAPP_NUMBER = '5521999999999';
+// WhatsApp da Cycloponto Recreio: (21) 2487-5182, só dígitos com DDI 55.
+const WHATSAPP_NUMBER = '552124875182';
+const DEFAULT_MESSAGE = 'Olá, Cycloponto! Quero alugar uma bike.';
 
-// Monta o link de cada botão com a mensagem já preenchida (atributo data-wa).
+// Monta o link de cada botão. data-wa pode trazer uma mensagem própria; vazio usa a padrão.
 document.querySelectorAll('[data-wa]').forEach((el) => {
-  const text = encodeURIComponent(el.dataset.wa);
+  const text = encodeURIComponent(el.dataset.wa || DEFAULT_MESSAGE);
   el.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
 });
-
-// Nav ganha fundo sólido depois do hero.
-const nav = document.querySelector('.nav');
-const onScroll = () => nav.classList.toggle('nav--solid', window.scrollY > 40);
-window.addEventListener('scroll', onScroll, { passive: true });
-onScroll();

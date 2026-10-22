@@ -7,7 +7,6 @@ Site estático (HTML + CSS + JS), sem build: abra `index.html` no navegador ou p
 
 ## Ajustes rápidos
 
-- **Número do WhatsApp:** `js/main.js` → `WHATSAPP_NUMBER` (só dígitos, com 55 + DDD).
-- **Mensagens pré-preenchidas:** atributo `data-wa` de cada botão no `index.html`.
-- **Cores e fontes da marca:** variáveis no topo de `css/styles.css` (`:root`).
-- **Logo:** troque o bloco `.brand__mark` no cabeçalho do `index.html` por `<img src="img/logo.svg" alt="Cycloponto">`.
+- **Logo e fotos:** salve os arquivos em `img/` com os nomes listados em `img/LEIA-ME.md`. Enquanto faltarem, a página mostra espaços reservados.
+- **WhatsApp:** `js/main.js` → `WHATSAPP_NUMBER` e `DEFAULT_MESSAGE`.
+- **Paleta e fonte (Poppins):** variáveis no topo de `css/styles.css` (`:root`).
