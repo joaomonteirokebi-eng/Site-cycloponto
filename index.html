@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycloponto · Aluguel de bikes no Recreio</title>
+  <meta name="description" content="Alugue uma bike na Cycloponto, no Recreio dos Bandeirantes, e pedale até o Píer da Barra, a Prainha ou Grumari. Reserva rápida pelo WhatsApp.">
+  <meta property="og:title" content="Cycloponto · Aluguel de bikes no Recreio">
+  <meta property="og:description" content="Mar de um lado, montanha do outro. Pegue sua bike e descubra o lado selvagem do Rio.">
+  <meta name="theme-color" content="#0E3B43">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="nav" id="topo">
+    <div class="container nav__inner">
+      <a href="#topo" class="brand" aria-label="Cycloponto, início">
+        <!-- Troque este bloco pelo logo oficial: <img src="img/logo.svg" alt="Cycloponto"> -->
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><circle cx="11" cy="26" r="8"/><circle cx="29" cy="26" r="8"/><path d="M11 26l7-12h8l3 12M18 14l-2-4h-3M26 14l2-4"/></svg>
+        </span>
+        <span class="brand__name">Cycloponto</span>
+      </a>
+      <nav class="nav__links" aria-label="Seções">
+        <a href="#passeios">Passeios</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a class="btn btn--wa btn--sm" data-wa="Oi, Cycloponto! Quero alugar uma bike." href="#" target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Reservar
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__art" aria-hidden="true">
+        <svg viewBox="0 0 1440 720" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#0E3B43"/>
+              <stop offset=".62" stop-color="#1F5A5E"/>
+              <stop offset="1" stop-color="#E9A66B"/>
+            </linearGradient>
+          </defs>
+          <rect width="1440" height="720" fill="url(#sky)"/>
+          <circle cx="1080" cy="470" r="120" fill="#F2C38B" opacity=".9"/>
+          <path d="M0 470 L140 360 L260 420 L420 250 L560 400 L700 330 L820 430 L1440 430 L1440 720 L0 720Z" fill="#164B50"/>
+          <path d="M760 520 L900 380 L1000 440 L1120 300 L1260 430 L1360 380 L1440 420 L1440 720 L760 720Z" fill="#0B3238"/>
+          <path d="M0 540 Q360 510 720 540 T1440 540 L1440 720 L0 720Z" fill="#2C7A7B"/>
+          <path d="M0 590 Q360 570 720 590 T1440 590 L1440 720 L0 720Z" fill="#E8D9BF"/>
+          <path d="M0 600 Q360 585 720 600 T1440 600" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3"/>
+        </svg>
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow">Recreio dos Bandeirantes · Rio de Janeiro</p>
+        <h1>O Rio mais selvagem <em>se descobre pedalando.</em></h1>
+        <p class="lead">Mar de um lado, montanha do outro e o vento a seu favor. Pegue uma bike com a gente e vá até onde o Rio ainda é quase segredo.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--wa" data-wa="Oi, Cycloponto! Quero alugar uma bike. Pode me passar valores e disponibilidade?" href="#" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Reservar pelo WhatsApp
+          </a>
+          <a class="btn btn--ghost" href="#passeios">Ver os passeios</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong>Desde 1992</strong><span>pedalando no Rio</span></li>
+          <li><strong>3 roteiros</strong><span>do plano à serra</span></li>
+          <li><strong>Saída no Recreio</strong><span>colado na orla</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="container intro__grid">
+        <h2>Bike boa, mapa na mão e <em>dica de quem é local.</em></h2>
+        <div>
+          <p>A Cycloponto nasceu em 1992, no embalo da Eco-92, e passou mais de trinta anos alugando, consertando e criando bicicletas no Rio. Hoje a nossa base fica no Recreio, a poucos metros da ciclovia da orla.</p>
+          <p>Você chega, a gente ajusta a bike pra você, conta onde vale parar e você sai. Sem pressa e sem pacote fechado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASSEIOS -->
+    <section class="routes" id="passeios">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--dark">Passeios saindo do Recreio</p>
+          <h2>Escolha seu horizonte.</h2>
+          <p>Três roteiros pra todo tipo de ritmo, do passeio na orla com água de coco até a subida que termina numa das praias mais bonitas do Rio.</p>
+        </header>
+
+        <div class="routes__grid">
+          <!-- Píer da Barra -->
+          <article class="route">
+            <div class="route__map" aria-hidden="true">
+              <svg viewBox="0 0 320 160">
+                <rect width="320" height="160" fill="#DCEBE6"/>
+                <path d="M0 112 Q160 100 320 112 L320 160 L0 160Z" fill="#9CC9C2"/>
+                <path class="route__line" d="M280 98 Q200 92 120 96 T30 100"/>
+                <circle class="route__pin route__pin--start" cx="280" cy="98" r="7"/>
+                <circle class="route__pin" cx="30" cy="100" r="7"/>
+                <text x="280" y="80" text-anchor="middle">Recreio</text>
+                <text x="36" y="80" text-anchor="middle">Píer</text>
+              </svg>
+            </div>
+            <div class="route__body">
+              <span class="tag tag--easy">Tranquilo</span>
+              <h3>Recreio → Píer da Barra</h3>
+              <p>A orla inteira da Barra pela ciclovia, quase toda plana, com o mar ao lado o caminho todo. Tem quiosque pra parar, banho de mar no meio do trajeto e pôr do sol na volta.</p>
+              <dl class="route__stats">
+                <div><dt>Distância</dt><dd>~18 km ida</dd></div>
+                <div><dt>Tempo</dt><dd>~1h10 ida</dd></div>
+                <div><dt>Terreno</dt><dd>Plano</dd></div>
+              </dl>
+              <p class="route__tip"><strong>Vai bem pra:</strong> famílias, casais e quem quer pedalar sem esforço.</p>
+              <a class="btn btn--wa btn--block" data-wa="Oi, Cycloponto! Quero alugar uma bike para o passeio Recreio → Píer da Barra." href="#" target="_blank" rel="noopener">
+                <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Quero esse
+              </a>
+            </div>
+          </article>
+
+          <!-- Prainha -->
+          <article class="route route--featured">
+            <div class="route__map" aria-hidden="true">
+              <svg viewBox="0 0 320 160">
+                <rect width="320" height="160" fill="#DCEBE6"/>
+                <path d="M150 160 L200 70 L250 110 L290 60 L320 90 L320 160Z" fill="#7FA99A"/>
+                <path d="M0 120 Q120 112 210 130 L210 160 L0 160Z" fill="#9CC9C2"/>
+                <path class="route__line" d="M40 108 Q110 100 160 92 T240 120"/>
+                <circle class="route__pin route__pin--start" cx="40" cy="108" r="7"/>
+                <circle class="route__pin" cx="240" cy="120" r="7"/>
+                <text x="46" y="90" text-anchor="middle">Recreio</text>
+                <text x="240" y="146" text-anchor="middle">Prainha</text>
+              </svg>
+            </div>
+            <div class="route__body">
+              <span class="tag tag--mid">Moderado</span>
+              <h3>Recreio → Prainha</h3>
+              <p>Pouco mais de meia hora e você troca a cidade por uma enseada verde e preservada, cercada de mata atlântica. Tem um trecho de subida curta pelo Pontal e a recompensa é mar azul, surfe e silêncio.</p>
+              <dl class="route__stats">
+                <div><dt>Distância</dt><dd>~6 km ida</dd></div>
+                <div><dt>Tempo</dt><dd>~30 min ida</dd></div>
+                <div><dt>Terreno</dt><dd>Plano + subida curta</dd></div>
+              </dl>
+              <p class="route__tip"><strong>Vai bem pra:</strong> quem quer natureza de verdade num passeio curto.</p>
+              <a class="btn btn--wa btn--block" data-wa="Oi, Cycloponto! Quero alugar uma bike para o passeio Recreio → Prainha." href="#" target="_blank" rel="noopener">
+                <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Quero esse
+              </a>
+            </div>
+          </article>
+
+          <!-- Grumari -->
+          <article class="route">
+            <div class="route__map" aria-hidden="true">
+              <svg viewBox="0 0 320 160">
+                <rect width="320" height="160" fill="#DCEBE6"/>
+                <path d="M80 160 L150 50 L210 100 L250 40 L320 110 L320 160Z" fill="#7FA99A"/>
+                <path d="M0 125 Q100 118 160 135 L160 160 L0 160Z" fill="#9CC9C2"/>
+                <path d="M230 160 Q280 130 320 140 L320 160Z" fill="#9CC9C2"/>
+                <path class="route__line" d="M30 112 Q90 104 130 100 Q170 70 200 82 Q240 96 280 132"/>
+                <circle class="route__pin route__pin--start" cx="30" cy="112" r="7"/>
+                <circle class="route__pin" cx="280" cy="132" r="7"/>
+                <text x="36" y="94" text-anchor="middle">Recreio</text>
+                <text x="274" y="114" text-anchor="middle">Grumari</text>
+              </svg>
+            </div>
+            <div class="route__body">
+              <span class="tag tag--hard">Desafiador</span>
+              <h3>Recreio → Grumari</h3>
+              <p>Para quem gosta de suar. Passa pela Prainha e sobe a serra até a vista de Grumari, uma praia de areia avermelhada, sem prédio nenhum e dentro de área de proteção ambiental. A descida até lá é inesquecível.</p>
+              <dl class="route__stats">
+                <div><dt>Distância</dt><dd>~11 km ida</dd></div>
+                <div><dt>Tempo</dt><dd>~50 min ida</dd></div>
+                <div><dt>Terreno</dt><dd>Subidas fortes</dd></div>
+              </dl>
+              <p class="route__tip"><strong>Vai bem pra:</strong> quem já pedala e quer o melhor visual da Zona Oeste.</p>
+              <a class="btn btn--wa btn--block" data-wa="Oi, Cycloponto! Quero alugar uma bike para o passeio Recreio → Grumari." href="#" target="_blank" rel="noopener">
+                <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Quero esse
+              </a>
+            </div>
+          </article>
+        </div>
+        <p class="routes__note">Distâncias e tempos são aproximados e contam só a ida, em ritmo de passeio.</p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="how" id="como-funciona">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow">Como funciona</p>
+          <h2>Do WhatsApp à areia em três passos.</h2>
+        </header>
+        <ol class="steps">
+          <li>
+            <span class="steps__n">01</span>
+            <h3>Chama no WhatsApp</h3>
+            <p>Diga o dia, quantas pessoas e qual passeio você quer fazer. A gente responde com valores e reserva sua bike.</p>
+          </li>
+          <li>
+            <span class="steps__n">02</span>
+            <h3>Retira no Recreio</h3>
+            <p>Na loja, ajustamos o banco e o capacete pra você e mostramos o caminho no mapa, com as melhores paradas.</p>
+          </li>
+          <li>
+            <span class="steps__n">03</span>
+            <h3>Pedala sem relógio</h3>
+            <p>Mergulha, toma uma água de coco, fica pro pôr do sol. Na volta, é só devolver a bike na loja.</p>
+          </li>
+        </ol>
+        <ul class="perks">
+          <li>Capacete incluso</li>
+          <li>Cadeado</li>
+          <li>Bike revisada antes de sair</li>
+          <li>Dicas de rota de quem pedala aqui</li>
+          <li>Atendimento em português, inglês e espanhol</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="duvidas">
+      <div class="container faq__grid">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--dark">Dúvidas rápidas</p>
+          <h2>Antes de sair pedalando.</h2>
+          <p>Ficou alguma pergunta? Chama a gente no WhatsApp que a resposta costuma ser rápida.</p>
+        </header>
+        <div class="faq__list">
+          <details>
+            <summary>Preciso pedalar bem para fazer os passeios?</summary>
+            <p>Para o Píer da Barra, não: é plano e tranquilo. A Prainha tem uma subida curta. Grumari pede um pouco mais de perna, mas dá pra empurrar a bike nos trechos mais íngremes sem vergonha nenhuma.</p>
+          </details>
+          <details>
+            <summary>Posso alugar por algumas horas ou só pelo dia todo?</summary>
+            <p>Os dois. Fale com a gente pelo WhatsApp que passamos os valores por período.</p>
+          </details>
+          <details>
+            <summary>O que devo levar?</summary>
+            <p>Protetor solar, água, roupa de banho e um documento com foto para a retirada. Para Grumari, vale levar um lanche, porque a estrutura por lá é bem simples.</p>
+          </details>
+          <details>
+            <summary>Vocês atendem turistas estrangeiros?</summary>
+            <p>Sim! We speak English · Hablamos español. Pode mandar mensagem no idioma que for mais fácil.</p>
+          </details>
+          <details>
+            <summary>E se o tempo virar?</summary>
+            <p>Remarcamos sem drama. Avise pelo WhatsApp que a gente encontra outro horário.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2>A orla está esperando. <em>Bora?</em></h2>
+        <p>Reserve sua bike em menos de um minuto.</p>
+        <a class="btn btn--wa btn--lg" data-wa="Oi, Cycloponto! Quero reservar uma bike." href="#" target="_blank" rel="noopener">
+          <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg> Falar no WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="brand__name">Cycloponto</span>
+        <p>Venda, aluguel, peças e manutenção de bicicletas desde 1992.</p>
+      </div>
+      <address>
+        Av. Genaro de Carvalho, 40<br>
+        Recreio dos Bandeirantes · Rio de Janeiro, RJ
+      </address>
+      <div class="footer__links">
+        <a href="https://www.instagram.com/cyclopontorecreio/" target="_blank" rel="noopener">Instagram @cyclopontorecreio</a>
+        <a data-wa="Oi, Cycloponto!" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="wa-float" data-wa="Oi, Cycloponto! Quero alugar uma bike." href="#" target="_blank" rel="noopener" aria-label="Falar com a Cycloponto no WhatsApp">
+    <svg class="ico" aria-hidden="true"><use href="#ico-wa"/></svg>
+  </a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="ico-wa" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 1 1 6.98 3.86Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/>
+    </symbol>
+  </svg>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
